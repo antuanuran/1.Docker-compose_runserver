@@ -1,6 +1,6 @@
-docker build -t api .
-docker-compose up -d
-docker-compose restart backend
+1. docker build -t api .
+2. docker-compose up -d
+3. docker-compose restart backend
 
 curl:
 http://localhost:8000/api/v1/products/
